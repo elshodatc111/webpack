@@ -1,3 +1,3 @@
-import getDate from "./request";
+import getData from "./requere";
 
-console.log("APP JS");
+console.log('APP JS');
