@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/alert.js":
+/*!**********************!*\
+  !*** ./src/alert.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   hello: () => (/* binding */ hello),\n/* harmony export */   number: () => (/* binding */ number)\n/* harmony export */ });\nconst hello = (name)=>{\r\n    console.log(`Salom: ${name}`)\r\n}\r\n\r\nconst number = [1,2,3]\n\n//# sourceURL=webpack://webpack/./src/alert.js?");
+
+/***/ }),
+
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request */ \"./src/request.js\");\n\r\n\r\n(0,_request__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\"Elshod\")\r\n\r\nconsole.log(\"App JS\")\n\n//# sourceURL=webpack://webpack/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request */ \"./src/request.js\");\n/* harmony import */ var _alert__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./alert */ \"./src/alert.js\");\n\r\n\r\n(0,_request__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\"Elshod\")\r\n\r\nconsole.log(_alert__WEBPACK_IMPORTED_MODULE_1__.number)\r\n\r\n;(0,_alert__WEBPACK_IMPORTED_MODULE_1__.hello)(\"Alisher\")\r\n\r\nconsole.log(\"App JS\")\n\n//# sourceURL=webpack://webpack/./src/app.js?");
 
 /***/ }),
 
