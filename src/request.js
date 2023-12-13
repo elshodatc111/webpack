@@ -1,4 +1,5 @@
 const getData = () =>{
-    console.log("Requery JS");
+    console.log("Request APP");
 }
+
 export default getData
