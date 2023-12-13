@@ -1,2 +1,5 @@
 import getData from "./request";
-console.log("App JS");
+
+getData("Elshod")
+
+console.log("App JS")
