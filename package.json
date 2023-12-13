@@ -1,0 +1,19 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "TEST uchun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elshodatc111/webpack.git"
+  },
+  "author": "Elshod Musurmonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elshodatc111/webpack/issues"
+  },
+  "homepage": "https://github.com/elshodatc111/webpack#readme"
+}
